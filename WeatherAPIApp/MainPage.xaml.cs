@@ -31,7 +31,7 @@ namespace WeatherAPIApp
         {
             RootObject myWeather = await OpenWeatherMapProxy.GetWeather(20.0, 30.0);
 
-            ResultTextBlock.Text = myWeather.name + " - " + myWeather.main.temp + " - " + myWeather.weather[0].description;
+            ResultTextBlock.Text = myWeather.name + " - " + ((int)myWeather.main.temp).ToString() + " - " + myWeather.weather[0].description;
         }
     }
 }
