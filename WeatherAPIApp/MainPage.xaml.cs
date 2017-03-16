@@ -26,5 +26,12 @@ namespace WeatherAPIApp
         {
             this.InitializeComponent();
         }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RootObject myWeather = await OpenWeatherMapProxy.GetWeather(20.0, 30.0);
+
+            ResultTextBlock.Text = myWeather.name + " - " + myWeather.main.temp + " - " + myWeather.weather[0].description;
+        }
     }
 }
