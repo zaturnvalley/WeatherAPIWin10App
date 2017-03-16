@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Runtime.Serialization.Json;
@@ -10,12 +11,18 @@ namespace WeatherAPIApp
 {
     public class OpenWeatherMapProxy
     {
-        public async static RootObject GetWeather(double lat, double lon)
+        public static object JsonConvert { get; private set; }
+
+        public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();
             var response = await http.GetAsync("http://samples.openweathermap.org/data/2.5/weather?lat=35&lon=139&appid=b1b15e88fa797225412429c1c50c122a1");
-            var result = response.Content.ReadAsStringAsync();
+            var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
+            var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
+            var data = (RootObject)serializer.ReadObject(ms);
+            return data;
+
         }
     }
     public class Coord
