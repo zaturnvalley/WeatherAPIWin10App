@@ -28,13 +28,13 @@
     <AppXManifest Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T18:11:54.051</Modified>
+      <Modified>2017-03-16T18:18:51.405</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.exe">
       <PackagePath>entrypoint\WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-16T18:11:53.839</Modified>
+      <Modified>2017-03-16T18:18:50.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -496,7 +496,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.xr.xml">
       <PackagePath>WeatherAPIApp.xr.xml</PackagePath>
-      <Modified>2017-03-16T17:48:50.730</Modified>
+      <Modified>2017-03-16T18:18:50.758</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -505,11 +505,11 @@
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-16T17:48:51.587</Modified>
+      <Modified>2017-03-16T18:18:51.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\WeatherAPIApp.exe">
       <PackagePath>WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-16T18:11:54.046</Modified>
+      <Modified>2017-03-16T18:18:51.401</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
