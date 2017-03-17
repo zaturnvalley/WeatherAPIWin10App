@@ -16,7 +16,7 @@
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
-    <RegisteredManifestChecksum>464CDA408E793DB02A331A7F4D2F5EA960E7A1A474FD6A62951AC2135CEF1515</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>1F7F6480070A673EBDE35DCA51AE8EA8B208CD135E26D4CF2E4BD80084547A3D</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>88bae367-0f90-462d-a10c-be935f17bdea_1.0.0.0_x86__n7cwsy0ed1cnw</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>88bae367-0f90-462d-a10c-be935f17bdea_n7cwsy0ed1cnw!App</RegisteredUserModeAppID>
     <RegisteredPackageID>88bae367-0f90-462d-a10c-be935f17bdea</RegisteredPackageID>
@@ -28,13 +28,13 @@
     <AppXManifest Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-17T18:08:07.286</Modified>
+      <Modified>2017-03-17T19:01:59.579</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.exe">
       <PackagePath>entrypoint\WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-17T18:08:06.494</Modified>
+      <Modified>2017-03-17T19:01:58.858</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -577,11 +577,11 @@
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-17T18:08:06.998</Modified>
+      <Modified>2017-03-17T19:01:59.332</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\WeatherAPIApp.exe">
       <PackagePath>WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-17T18:08:07.281</Modified>
+      <Modified>2017-03-17T19:01:59.574</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

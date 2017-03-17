@@ -30,7 +30,11 @@ namespace WeatherAPIApp
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
-            RootObject myWeather = await OpenWeatherMapProxy.GetWeather(47.6, -122.3);
+            var position = await LocationManager.GetPosition();
+            RootObject myWeather = 
+                await OpenWeatherMapProxy.GetWeather(
+                    position.Coordinate.Latitude, 
+                    position.Coordinate.Longitude);
             string icon = String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon);
             ResultImage.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
             ResultTextBlock.Text = myWeather.name + " - " + ((int)myWeather.main.temp).ToString() + " - " + myWeather.weather[0].description;
