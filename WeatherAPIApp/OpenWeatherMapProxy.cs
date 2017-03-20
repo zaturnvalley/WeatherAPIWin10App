@@ -11,8 +11,6 @@ namespace WeatherAPIApp
 {
     public class OpenWeatherMapProxy
     {
-        public static object JsonConvert { get; private set; }
-
         public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();

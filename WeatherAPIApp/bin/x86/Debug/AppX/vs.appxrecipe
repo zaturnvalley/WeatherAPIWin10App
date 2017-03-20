@@ -28,13 +28,13 @@
     <AppXManifest Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-17T19:01:59.579</Modified>
+      <Modified>2017-03-20T20:01:40.204</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.exe">
       <PackagePath>entrypoint\WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-17T19:01:58.858</Modified>
+      <Modified>2017-03-20T20:01:39.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -577,11 +577,11 @@
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-03-17T19:01:59.332</Modified>
+      <Modified>2017-03-20T17:47:11.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\WeatherAPIApp.exe">
       <PackagePath>WeatherAPIApp.exe</PackagePath>
-      <Modified>2017-03-17T19:01:59.574</Modified>
+      <Modified>2017-03-20T20:01:40.198</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
