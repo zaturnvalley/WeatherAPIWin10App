@@ -31,14 +31,20 @@ namespace WeatherAPIApp
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
             var position = await LocationManager.GetPosition();
+
+            var lat = position.Coordinate.Point.Position.Longitude;
+            var lon = position.Coordinate.Point.Position.Latitude;
             RootObject myWeather =
                 await OpenWeatherMapProxy.GetWeather(
-                    position.Coordinate.Point.Position.Longitude,
-                    position.Coordinate.Point.Position.Latitude);
+                    lat,
+                    lon);
 
             string icon = String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon);
             ResultImage.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
-            ResultTextBlock.Text = myWeather.name + " - " + ((int)myWeather.main.temp).ToString() + " - " + myWeather.weather[0].description;
+
+            TempTextBlock.Text = ((int)myWeather.main.temp).ToString();
+            DescriptionTextBlock.Text = myWeather.weather[0].description;
+            LocationtTextBlock.Text = myWeather.name;
         }
     }
 }

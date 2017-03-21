@@ -7,11 +7,21 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Loaded="Page_Loaded">
 
-    <StackPanel Background="Turquoise" VerticalAlignment="Center">
-        <Image Name="ResultImage" Width="200" Height="200" HorizontalAlignment="Center"/>
-        <TextBlock Name="ResultTextBlock" 
+    <StackPanel Background="Turquoise">
+        <StackPanel VerticalAlignment="Center">
+            <Image Name="ResultImage" Width="200" Height="200" HorizontalAlignment="Center"/>
+            <TextBlock Name="TempTextBlock" 
+                   FontSize="52" 
+                   Foreground="White"
+                   HorizontalAlignment="Center"/>
+            <TextBlock Name="DescriptionTextBlock" 
                    FontSize="36" 
                    Foreground="White"
                    HorizontalAlignment="Center"/>
+            <TextBlock Name="LocationtTextBlock" 
+                   FontSize="24" 
+                   Foreground="White"
+                   HorizontalAlignment="Center"/>
+        </StackPanel>
     </StackPanel>
 </Page>
