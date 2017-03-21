@@ -30,12 +30,12 @@ namespace WeatherAPIApp
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-          //try
-            //{
+            try
+            {
                 var position = await LocationManager.GetPosition();
+                var lat = position.Coordinate.Latitude;
+                var lon = position.Coordinate.Longitude;
 
-                var lat = position.Coordinate.Point.Position.Longitude;
-                var lon = position.Coordinate.Point.Position.Latitude;
                 RootObject myWeather =
                     await OpenWeatherMapProxy.GetWeather(
                         lat,
@@ -46,12 +46,14 @@ namespace WeatherAPIApp
 
                 TempTextBlock.Text = ((int)myWeather.main.temp).ToString();
                 DescriptionTextBlock.Text = myWeather.weather[0].description;
-                LocationtTextBlock.Text = myWeather.name;
-            //}
-          //catch
-            //{
-                //LocationtTextBlock.Text = "Unable to get weather at this time";
-            //}
+                LocationTextBlock.Text = myWeather.name;
+            }
+
+            catch
+            {
+                LocationTextBlock.Text = "Unable to get weather at this time.";
+            }
+
         }
     }
 }

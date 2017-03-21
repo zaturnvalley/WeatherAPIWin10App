@@ -21,9 +21,8 @@ namespace WeatherAPIApp
 
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
             var data = (RootObject)serializer.ReadObject(ms);
-
+            
             return data;
-
         }
     }
     public class Coord

@@ -18,7 +18,7 @@
                    FontSize="36" 
                    Foreground="White"
                    HorizontalAlignment="Center"/>
-            <TextBlock x:ConnectionId='5' Name="LocationtTextBlock" 
+            <TextBlock x:ConnectionId='5' Name="LocationTextBlock" 
                    FontSize="24" 
                    Foreground="White"
                    HorizontalAlignment="Center"
