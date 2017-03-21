@@ -10,19 +10,19 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>88bae367-0f90-462d-a10c-be935f17bdea</PackageIdentityName>
     <PackageIdentityPublisher>CN=zach</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.exe">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.exe">
       <PackagePath>entrypoint\WeatherAPIApp.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\zach\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -340,101 +340,101 @@
     <AppxPackagedFile Include="C:\Users\zach\.nuget\packages\System.Xml.XmlSerializer\4.0.10\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\01d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\01d.png">
       <PackagePath>Assets\Weather\01d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\01n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\01n.png">
       <PackagePath>Assets\Weather\01n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\02d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\02d.png">
       <PackagePath>Assets\Weather\02d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\02n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\02n.png">
       <PackagePath>Assets\Weather\02n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\03d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\03d.png">
       <PackagePath>Assets\Weather\03d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\03n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\03n.png">
       <PackagePath>Assets\Weather\03n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\04d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\04d.png">
       <PackagePath>Assets\Weather\04d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\04n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\04n.png">
       <PackagePath>Assets\Weather\04n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\09d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\09d.png">
       <PackagePath>Assets\Weather\09d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\09n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\09n.png">
       <PackagePath>Assets\Weather\09n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\10d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\10d.png">
       <PackagePath>Assets\Weather\10d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\10n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\10n.png">
       <PackagePath>Assets\Weather\10n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\11d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\11d.png">
       <PackagePath>Assets\Weather\11d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\11n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\11n.png">
       <PackagePath>Assets\Weather\11n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\13d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\13d.png">
       <PackagePath>Assets\Weather\13d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\13n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\13n.png">
       <PackagePath>Assets\Weather\13n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\50d.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\50d.png">
       <PackagePath>Assets\Weather\50d.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\50n.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Weather\50n.png">
       <PackagePath>Assets\Weather\50n.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\WeatherAPIApp.xr.xml">
       <PackagePath>WeatherAPIApp.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\zach\documents\visual studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\WeatherAPIApp.exe">
+    <AppxPackagedFile Include="C:\Users\zach\Documents\Visual Studio 2015\Projects\WeatherAPIApp\WeatherAPIApp\bin\x86\Debug\Core\WeatherAPIApp.exe">
       <PackagePath>WeatherAPIApp.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -18,8 +18,10 @@ namespace WeatherAPIApp
             var response = await http.GetAsync(url);
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
+
             var ms = new MemoryStream(Encoding.UTF8.GetBytes(result));
             var data = (RootObject)serializer.ReadObject(ms);
+
             return data;
 
         }

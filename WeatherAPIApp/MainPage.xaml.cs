@@ -30,21 +30,28 @@ namespace WeatherAPIApp
 
         private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            var position = await LocationManager.GetPosition();
+          //try
+            //{
+                var position = await LocationManager.GetPosition();
 
-            var lat = position.Coordinate.Point.Position.Longitude;
-            var lon = position.Coordinate.Point.Position.Latitude;
-            RootObject myWeather =
-                await OpenWeatherMapProxy.GetWeather(
-                    lat,
-                    lon);
+                var lat = position.Coordinate.Point.Position.Longitude;
+                var lon = position.Coordinate.Point.Position.Latitude;
+                RootObject myWeather =
+                    await OpenWeatherMapProxy.GetWeather(
+                        lat,
+                        lon);
 
-            string icon = String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon);
-            ResultImage.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
+                string icon = String.Format("ms-appx:///Assets/Weather/{0}.png", myWeather.weather[0].icon);
+                ResultImage.Source = new BitmapImage(new Uri(icon, UriKind.Absolute));
 
-            TempTextBlock.Text = ((int)myWeather.main.temp).ToString();
-            DescriptionTextBlock.Text = myWeather.weather[0].description;
-            LocationtTextBlock.Text = myWeather.name;
+                TempTextBlock.Text = ((int)myWeather.main.temp).ToString();
+                DescriptionTextBlock.Text = myWeather.weather[0].description;
+                LocationtTextBlock.Text = myWeather.name;
+            //}
+          //catch
+            //{
+                //LocationtTextBlock.Text = "Unable to get weather at this time";
+            //}
         }
     }
 }
